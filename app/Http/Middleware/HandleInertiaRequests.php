@@ -43,7 +43,7 @@ class HandleInertiaRequests extends Middleware
                 ],
             ],
             'images' => [
-                'logo' => asset('assets/images/laraboard-logo.png'),
+                'logo' => asset('assets/images/codebeastlogo.png'),
                 'homepageHeaderImage' => asset('assets/images/homepage-header-image.png'),
             ],
             'ziggy' => function () use ($request) {
@@ -52,7 +52,7 @@ class HandleInertiaRequests extends Middleware
                 ]);
             },
             'lang' => function () {
-                return json_decode(file_get_contents(base_path('lang/'.app()->getLocale().'/strings.json')), true);
+                return json_decode(file_get_contents(base_path('lang/' . app()->getLocale() . '/strings.json')), true);
             },
             'csrfToken' => csrf_token(),
             'flash' => [

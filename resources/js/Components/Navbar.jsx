@@ -20,7 +20,7 @@ export default function Navbar({ scroll }) {
                             </Link>
                             <Link href={route("homepage")}>
                                 <span className="uppercase font-semibold hover:text-blue-800 text-2xl  text-neutral-800">
-                                    LaraBoard
+                                    {/* The Code Beast */}
                                 </span>
                             </Link>
                         </div>
