@@ -22,7 +22,7 @@ export default function Homepage({
             <div className="home-header mb-5">
                 <div className="max-w-7xl mx-auto lg:flex items-center space-20 px-3">
                     <div className="md:w-2/3">
-                        <h1 className="font-bold text-5xl text-blue-800">
+                        <h1 className="font-bold text-5xl custom-color-text">
                             {t("Open Positions", lang)}
                         </h1>
                         <h2 className="text-2xl mt-10 text-zinc-700 leading-snug">

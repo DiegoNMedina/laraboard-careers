@@ -157,7 +157,7 @@ export default function JobFilters({
                 <div className="flex justify-center mt-8 mb-3">
                     <button
                         type="submit"
-                        className="bg-blue-800 text-white font-semibold py-2.5 px-8 rounded"
+                        className="custom-color text-white font-semibold py-2.5 px-8 rounded"
                         disabled={processing}
                     >
                         {t("Apply Filters", lang)}

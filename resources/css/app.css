@@ -8,18 +8,26 @@ body {
 }
 .navi-bar,
 .bg-light-blue {
-    background-color: #e5ebf5;
+    background-color: #fcfdfc;
 }
 .home-header {
-    background-color: #e5ebf5;
+    background-color: #fcfdfc;
     padding: 80px 0 80px 0;
 }
 .inner-header {
-    background-color: #e5ebf5;
+    background-color: #fcfdfc;
     padding: 40px 0 80px 0;
 }
 .text-gradient-home {
     background: -webkit-linear-gradient(135deg, #5b8dfe 0%, #ff5f5f 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.custom-color {
+    background-color: #74a352;
+}
+
+.custom-color-text {
+    color: #74a352;
 }
