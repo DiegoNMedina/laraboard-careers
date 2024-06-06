@@ -8,7 +8,7 @@ export default function Team() {
 
     return (
         <Front>
-            <Head title="Team - LaraBoard" />
+            <Head title="Team - The Code Beast" />
             <div className="inner-header mb-5 mt-10">
                 <div className="max-w-screen-xl mx-auto px-3 md:text-center">
                     <h1 className="jobTitle text-3xl font-semibold">

@@ -18,7 +18,7 @@ export default function Homepage({
 
     return (
         <Front>
-            <Head title="LaraBoard" />
+            <Head title="Open Positions" />
             <div className="home-header mb-5">
                 <div className="max-w-7xl mx-auto lg:flex items-center space-20 px-3">
                     <div className="md:w-2/3">
